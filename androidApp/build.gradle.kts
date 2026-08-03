@@ -14,11 +14,11 @@ dependencies {
 }
 
 android {
-    namespace = "com.jetbrains.kmpapp"
+    namespace = "com.beam.app"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.jetbrains.kmpapp"
+        applicationId = "com.beam.app"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1

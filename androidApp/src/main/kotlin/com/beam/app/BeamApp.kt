@@ -1,9 +1,9 @@
-package com.jetbrains.kmpapp
+package com.beam.app
 
 import android.app.Application
-import com.jetbrains.kmpapp.di.initKoin
+import com.beam.app.di.initKoin
 
-class MuseumApp : Application() {
+class BeamApp : Application() {
     override fun onCreate() {
         super.onCreate()
         initKoin()

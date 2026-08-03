@@ -1,4 +1,4 @@
-package com.jetbrains.kmpapp
+package com.beam.app
 
 import androidx.compose.ui.window.ComposeUIViewController
 

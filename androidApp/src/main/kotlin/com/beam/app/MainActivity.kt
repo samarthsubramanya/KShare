@@ -1,4 +1,4 @@
-package com.jetbrains.kmpapp
+package com.beam.app
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

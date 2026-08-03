@@ -1,4 +1,4 @@
-rootProject.name = "KMP-App-Template"
+rootProject.name = "Beam"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
@@ -34,3 +34,4 @@ plugins {
 
 include(":shared")
 include(":androidApp")
+include(":desktopApp")

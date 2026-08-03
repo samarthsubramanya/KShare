@@ -1,0 +1,8 @@
+-- Placeholder schema; real device/history tables land in Phase 4 (pairing + persistence).
+CREATE TABLE PairedDevice (
+    id TEXT NOT NULL PRIMARY KEY,
+    displayName TEXT NOT NULL
+);
+
+selectAll:
+SELECT * FROM PairedDevice;
