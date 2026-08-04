@@ -20,6 +20,12 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Beam uses your local network to discover and send files to your other devices.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_beam._tcp</string>
+	</array>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>

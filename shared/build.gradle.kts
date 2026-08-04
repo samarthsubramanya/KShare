@@ -51,6 +51,7 @@ kotlin {
         }
         jvmMain.dependencies {
             implementation(libs.sqldelight.jvm.driver)
+            implementation(libs.jmdns)
         }
         commonMain.dependencies {
             implementation(libs.compose.runtime)
